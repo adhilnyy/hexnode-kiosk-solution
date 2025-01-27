@@ -1,1 +1,46 @@
 @import "tailwindcss";
+
+@theme{
+  /* Font Family */
+  --font-family-mulish: "Mulish", sans-serif;
+
+  /* colors */
+  --color-*: initial;
+  --color-blue: #020A19;
+  --color-white: #FFFFFF;
+  --color-input-gray: #C6C6C6;
+  --color-red: #DD0735;
+  --color-hover-red: ##bb022a;
+  --color-green: #60C458;
+  --color-text-gray: #333333;
+  --color-white-tab: #F7F7F7;
+  --color-black: #050607;
+  --color-black-400: #1A1C2B
+
+  /* font Weights */
+  /* --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-semi-bold: 600;
+  --font-weight-bold: 700; */
+}
+
+body {
+  font-family: var(--font-family-mulish);
+}
+
+@utility container{
+  width: 88%;
+}
+
+@utility rounded-field{
+  border-radius: 3px;
+}
+
+@utility action-btn{
+  @apply bg-red hover:bg-hover-red text-white rounded-field py-[10px] px-[26px] transition uppercase
+}
+
+
+
+
+
