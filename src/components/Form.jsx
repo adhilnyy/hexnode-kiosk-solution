@@ -31,7 +31,7 @@ const Form = ({btnContent}) => {
         {btnContent}
     </button>
     </div>
-    <p className='text-[18px] leading-[24px] text-white font-extralight text-center'>{error}</p>
+    <p className='text-[18px] leading-[24px] text-white font-extralight text-center pt-2.5'>{error}</p>
     </>
   )
 }

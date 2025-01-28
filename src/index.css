@@ -10,12 +10,14 @@
   --color-white: #FFFFFF;
   --color-input-gray: #C6C6C6;
   --color-red: #DD0735;
-  --color-hover-red: ##bb022a;
+  --color-hover-red: #bb022a;
   --color-green: #60C458;
   --color-text-gray: #333333;
   --color-white-tab: #F7F7F7;
   --color-black: #050607;
-  --color-black-400: #1A1C2B
+  --color-black-400: #1A1C2B;
+  --color-footer-white: #F2F2F2;
+  --color-footer-gray: #556575;
 
   /* font Weights */
   /* --font-weight-regular: 400;

@@ -1,6 +1,6 @@
 import React from 'react'
 import Form from './Form'
-import heroImage from './../assests/heroSection.webp'
+import heroImage from './../assets/heroSection.webp'
 
 const HeroSection = () => {
 

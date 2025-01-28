@@ -2,6 +2,11 @@ import React from 'react'
 import Header from '../components/Header'
 import HeroSection from '../components/HeroSection'
 import Achievements from '../components/Achievements'
+import KioskTabs from '../components/KioskTabs'
+import Footer from '../components/Footer'
+import SignUp from '../components/SignUp'
+import PlatForms from '../components/PlatForms'
+import Testimonials from '../components/testimonials'
 
 const Home = () => {
   return (
@@ -11,6 +16,11 @@ const Home = () => {
       <HeroSection />
     </div>
     <Achievements />
+    <KioskTabs />
+    <Testimonials />
+    <PlatForms />
+    <SignUp />
+    <Footer />
     </>
   )
 }
