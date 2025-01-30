@@ -51,7 +51,7 @@ const KioskTabs = () => {
                 </div>
                 <div className="col-span-12 lg:col-span-6 order-3 lg:order-2 flex justify-center lg:block">
                   <div className=" max-sm:h-[210px] max-w-[308px] max-sm:mt-[15px] mb-[20px] lg:mb-0 sm:max-w-[460px]">
-                    <img className="w-full h-full rounded-[10px]" src={tab.image} alt={tab.label} />
+                    <img loading="lazy" className="w-full h-full rounded-[10px]" src={tab.image} alt={tab.label} />
                   </div>
                 </div>
               </div>

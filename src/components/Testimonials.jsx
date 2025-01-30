@@ -37,13 +37,13 @@ const Testimonials = () => {
             <div className=' col-span-6 md:col-span-1 order-5 md:order-1 pt-5 md:pt-0 flex justify-end md:block'>
                 <button onClick={goToPrev} aria-label="Previous Testimonial" role="button" tabIndex="0" 
                  className='bg-white w-14 h-14 rounded-xl grid place-items-center cursor-pointer'>
-                    <img src={prevArrow} alt="previous" />
+                    <img loading="lazy" src={prevArrow} alt="previous" />
                 </button>      
             </div>
                 <div className='col-span-12 md:col-span-10 order-4 md:order-2 bg-white grid grid-cols-12 gap-1 md:gap-5 rounded-[18px]'>
                     <div className='col-span-12 md:col-span-4'>
                     <div className='w-full max-w-[400px] sm:max-w-[400px] md:max-w-[320px] h-auto leading-[0px] overflow-hidden rounded-t-[18px] md:rounded-tr-none md:rounded-tl-[18px] md:rounded-bl-[18px]'>                   
-                            <img className='align-middle object-cover w-full' src={testimonialsData[currentIndex]?.image} alt={`Testimonial from ${testimonialsData[currentIndex]?.name}, ${testimonialsData[currentIndex]?.designation} at ${testimonialsData[currentIndex]?.company}`} />
+                            <img loading="lazy" className='align-middle object-cover w-full' src={testimonialsData[currentIndex]?.image} alt={`Testimonial from ${testimonialsData[currentIndex]?.name}, ${testimonialsData[currentIndex]?.designation} at ${testimonialsData[currentIndex]?.company}`} />
                         </div> 
                     </div>
                     <div className='col-span-12 md:col-span-8'>
@@ -58,7 +58,7 @@ const Testimonials = () => {
                 </div>
             <div className="col-span-6 md:col-span-1 order-6 md:order-3 pt-5 md:pt-0 flex justify-start md:block">
                 <button onClick={goToNext} aria-label="Next Testimonial" role="button" tabIndex="0" className='bg-white w-14 h-14 rounded-xl grid place-items-center cursor-pointer'>
-                    <img src={nextArrow} alt="next" />
+                    <img loading="lazy" src={nextArrow} alt="next" />
                 </button>   
             </div>
         </div>

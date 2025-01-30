@@ -34,7 +34,7 @@ const Slider = () => {
         style={{ transform: `translateX(${translateX}%)` }}
       >
         {sliderData.concat(sliderData).map((item, index) => (
-          <img
+          <img loading="lazy"
             key={index}
             src={item.src}
             alt={item.alt}

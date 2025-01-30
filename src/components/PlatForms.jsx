@@ -26,7 +26,7 @@ const PlatForms = () => {
             <div className='flex flex-wrap lg:justify-start justify-center'>
                 {platformsData.map((data, index) => (
                     <div key={index} className='max-w-[150px] h-[60px] sm:max-w-[190px] sm:h-[72px] rounded-[10px] mb-[25px] sm:mb-[15px] px-[12px] max-xs:even:pr-0 max-xs:odd:pl-0'>
-                        <img src={data.src} alt={data.alt} className='transition-transform duration-300 hover:-translate-y-1' />
+                        <img loading="lazy" src={data.src} alt={data.alt} className='transition-transform duration-300 hover:-translate-y-1' />
                     </div>
                 ))}
             </div>

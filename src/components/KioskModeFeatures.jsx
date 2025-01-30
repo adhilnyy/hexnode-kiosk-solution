@@ -15,7 +15,7 @@ const KioskModeFeatures = () => {
             <div className="group col-span-12 lg:col-span-5 p-4 relative" role="tabpanel" aria-labelledby={`feature-${featuresData[currentIndex - 1]?.id}`}>
                 {featuresData[currentIndex - 1] &&
                     <div className="rounded-[10px] overflow-hidden transition-all duration-300 ease-out">
-                        <img src={featuresData[currentIndex - 1].image} alt={featuresData[currentIndex - 1].title} />
+                        <img loading="lazy" src={featuresData[currentIndex - 1].image} alt={featuresData[currentIndex - 1].title} />
                         {featuresData[currentIndex - 1].point && 
                             <span className='absolute right-0 top-[50%] text-start mb-[10px] last:mb-[0px] group-hover:-translate-y-1 border border-solid backdrop-blur-xl bg-white/90 border-footer-white rounded-lg py-[15px] pr-[30px] 
                                 pl-5 sm:pl-6 transition-all duration-300 ease-out'>

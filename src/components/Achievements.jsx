@@ -22,7 +22,7 @@ const Achievements = () => {
                     px-[0px] py-[40px] md:py-[20px] md:px-[10px] lg:px-[25px] xl:px-[45px]" >
                     <div className='transition-transform duration-300 hover:-translate-y-1'>
                     <div className='flex items-center min-w-[82px] max-w-[156px] max-h-[25px] mb-[15px]'>
-                        <img src={data?.src} alt={data?.alt} className='object-fit' />
+                        <img loading="lazy" src={data?.src} alt={data?.alt} className='object-fit' />
                     </div>
                     <p className='font-normal text-white/60 text-sm'>{data?.content}</p>
                     </div>

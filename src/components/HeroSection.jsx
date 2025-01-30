@@ -14,7 +14,7 @@ const HeroSection = () => {
                 <Form btnContent={"get started now!"} />
             </div>
             <div className='col-span-12 lg:col-span-6 order-3 lg:order-2' >
-                <img className='object-contain w-fit h-fit' role="img" aria-label="Illustration of Hexnode UEM Kiosk" src={heroImage} alt='Hexnode UEM Kiosk' />
+                <img loading="lazy" className='object-contain w-fit h-fit' role="img" aria-label="Illustration of Hexnode UEM Kiosk" src={heroImage} alt='Hexnode UEM Kiosk' />
             </div>
         </div>
     </div>
