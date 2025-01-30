@@ -1,5 +1,6 @@
 import React from 'react'
 import Form from './Form'
+import ButtonLink from './ButtonLink'
 
 const SignUp = () => {
   return (
@@ -10,13 +11,7 @@ const SignUp = () => {
             </h3>
             <Form  btnContent={"get started"} />
             <p className="text-[17px] leading-[24px] text-center text-footer-gray font-medium pt-2.5">No credit cards required.
-            <a className="group text-[17px] leading-[24px] text-red font-medium inline-block pr-[20px] pb-[0px] pl-[5px]"
-                href="https://www.hexnode.com/mobile-device-management/request-demo/">
-                Request a demo
-                <span className="ml-1 inline-block transition-transform duration-300 ease-in-out group-hover:translate-x-1">
-                    {`>`}
-                </span>
-            </a>
+            <ButtonLink title="Request a demo" href="https://www.hexnode.com/mobile-device-management/request-demo/" />
             </p>
         </div>
     </div>

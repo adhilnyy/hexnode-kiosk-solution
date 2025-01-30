@@ -7,6 +7,7 @@ import Footer from '../components/Footer'
 import SignUp from '../components/SignUp'
 import PlatForms from '../components/PlatForms'
 import Testimonials from '../components/testimonials'
+import KioskModeFeatures from '../components/KioskModeFeatures'
 
 const Home = () => {
   return (
@@ -17,6 +18,7 @@ const Home = () => {
     </div>
     <Achievements />
     <KioskTabs />
+    <KioskModeFeatures />
     <Testimonials />
     <PlatForms />
     <SignUp />
