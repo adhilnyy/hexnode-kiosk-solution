@@ -6,7 +6,7 @@ import KioskTabs from '../components/KioskTabs'
 import Footer from '../components/Footer'
 import SignUp from '../components/SignUp'
 import PlatForms from '../components/PlatForms'
-import Testimonials from '../components/testimonials'
+import Testimonials from '../components/Testimonials'
 import KioskModeFeatures from '../components/KioskModeFeatures'
 
 const Home = () => {
